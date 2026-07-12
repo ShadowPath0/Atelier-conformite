@@ -231,7 +231,11 @@ export default function HaccpTab({ userId }) {
       <p style={{ color: 'var(--ink-soft)', fontSize: '.85rem', marginBottom: 10 }}>
         Enregistrez ici chaque vérification ou surveillance réelle d'une étape — c'est la preuve que les contrôles prévus sont vraiment effectués.
       </p>
-      
+      <div style={{ background: 'var(--surface-alt)', border: '1px solid var(--line)', borderRadius: 6, padding: 12, marginBottom: 14, fontSize: '.8rem', color: 'var(--ink-soft)' }}>
+        <b style={{ color: 'var(--ink)' }}>Surveillance</b> : le contrôle fait à chaque production, sur le lot en cours (ex : relevé de température à chaque cuisson).{' '}
+        <b style={{ color: 'var(--ink)' }}>Vérification</b> : le contrôle périodique du système lui-même, pas d'un lot précis (ex : étalonnage de la sonde une fois par mois, ou relecture des surveillances du mois pour s'assurer qu'aucune n'a été oubliée).
+      </div>
+
       {/* Modification de gridTemplateColumns pour s'adapter dynamiquement aux 6 éléments désormais présents */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: 8, marginBottom: 10 }}>
         <select className="select-field" value={verifForm.etape} onChange={e => setVerifForm(f => ({ ...f, etape: e.target.value }))}>
