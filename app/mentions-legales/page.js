@@ -5,11 +5,9 @@ export default function MentionsLegales() {
       <h1 style={{ fontSize: '1.5rem' }}>Mentions légales</h1>
 
       <h2 style={{ fontSize: '1.1rem' }}>Éditeur du site</h2>
-      <p><span style={ph}>[Votre prénom et nom]</span>, entrepreneur individuel / micro-entrepreneur<br/>
-      Adresse : <span style={ph}>[votre adresse professionnelle]</span><br/>
-      SIRET : <span style={ph}>[votre numéro SIRET]</span><br/>
-      Email de contact : <span style={ph}>[votre email professionnel]</span><br/>
-      Directeur de la publication : <span style={ph}>[votre prénom et nom]</span></p>
+      <p> Hugo JACOB, auto-entrepreneur <br/>
+      Email de contact : conformiteatelier@gmail.com <br/>
+      Directeur de la publication : Hugo JACOB </p>
 
       <h2 style={{ fontSize: '1.1rem' }}>Hébergement</h2>
       <p>
