@@ -39,7 +39,12 @@ export default function CGV() {
       <p>Le contenu est destiné à un usage strictement personnel par l'acheteur. Toute revente, partage ou distribution à des tiers est interdite.</p>
 
       <h2 style={h2}>Article 8 — Médiation de la consommation</h2>
-      <p>Conformément à l'article L616-1 du Code de la consommation, en cas de litige, le consommateur peut recourir gratuitement à un service de médiation de la consommation : <span style={ph}>[à compléter : coordonnées de votre médiateur de la consommation]</span>.</p>
+      <p>
+        Conformément à l'article L616-1 du Code de la consommation, en cas de litige non résolu directement avec nous,
+        le consommateur peut recourir gratuitement au service de médiation suivant : CNPM — Médiation de la Consommation
+        (<a href="https://cnpm-mediation-consommation.eu">cnpm-mediation-consommation.eu</a>), adresse postale et
+        numéro d'adhérent <span style={ph}>[à compléter après inscription au service — fournis par CNPM à l'adhésion]</span>.
+      </p>
 
       <h2 style={h2}>Article 9 — Droit applicable</h2>
       <p>Les présentes CGV sont soumises au droit français.</p>
